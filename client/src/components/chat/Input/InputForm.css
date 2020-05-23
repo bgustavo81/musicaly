@@ -1,0 +1,28 @@
+.chatForm {
+  display: flex;
+  border-top: 2px solid #D3D3D3;
+}
+
+.textInput {
+  border: none;
+  border-radius: 0;
+  padding: 5%;
+  width: 80%;
+  font-size: 1em;
+}
+
+input:focus, textarea:focus, select:focus{
+  outline: none;
+}
+
+.textSendButton {
+  color: #fff !important;
+  font-size: .7em;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #2979FF;
+  padding: 16px;
+  display: inline-block;
+  border: none;
+  width: 20%;
+}

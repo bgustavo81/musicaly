@@ -1,0 +1,38 @@
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  /* margin-left: 100px; */
+  color: white;
+  height: 60%;
+  justify-content: space-between;
+}
+
+.activeTextContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50%;
+}
+
+.activeTextItem {
+  display: flex;
+  align-items: center;
+}
+
+.activeTextContainer img {
+  padding-left: 10px;
+}
+
+.textContainer h1 {
+  margin-bottom: 0px;
+}
+
+.onlineIcon {
+  height: 8px;
+  width: 8px;
+}
+
+@media (min-width: 320px) and (max-width: 1200px) {
+  .textContainer {
+    display: none;
+  }
+}
